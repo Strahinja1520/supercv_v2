@@ -15,8 +15,18 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
     <title>SuperCV</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("aY43whvMGRs3K7Ym1");
+      })();
+    </script>
   </head>
   <body>
     <!-- START Navbar sesction -->
@@ -65,6 +75,7 @@
     </div>
     <!-- END HERO section -->
 
+    <!-- START UVOD section -->
     <div class="uvod">
       <div class="uvod-content">
         <h2>Dopustite nama da se pobrinemo za Vas CV</h2>
@@ -88,7 +99,9 @@
         </p>
       </div>
     </div>
+    <!-- END UVOD section -->
 
+    <!-- START ONAMA section -->
     <div class="onama">
       <div class="onama-content">
         <div class="onama-img">
@@ -107,6 +120,150 @@
             <span>Južnoj Americi</span>.
           </p>
         </div>
+      </div>
+    </div>
+    <!-- END ONAMA section -->
+
+    <!-- START USLUGE section -->
+    <div class="usluge">
+      <div class="usluge-content">
+        <h2>Naše usluge</h2>
+        <div class="usluga-cv">
+          <h3>Pravljenje CV-a</h3>
+          <p>
+            Besprekoran CV je važan jer pomaže da se istaknete među
+            konkurencijom, stvori pozitivan prvi utisak i poveća Vaše šanse za
+            napredovanje u procesu selekcije za posao. Ako Vaš CV nije dovoljno
+            dobar, možda nećete biti pozvani na razgovor čak i ako imate
+            odgovarajuće kvalifikacije. Besprekoran CV povećava šanse da vas
+            primete i pozovu na intervju.
+          </p>
+          <button>Kliknite OVDE da vidite naše pakete!</button>
+        </div>
+        <div class="usluga-cover">
+          <h3>Pravljenje Cover Letter-a</h3>
+          <p>
+            Prateće pismo može da posluži kao dodatak vašem CV-u, gde možete
+            objasniti detalje ili istaknuti određene tačke iz vaše biografije
+            koje su relevantne za posao. To čini vašu prijavu kompletnijom i
+            informativnijom. Prateće pismo omogućava vam da prilagodite svoju
+            prijavu za određeni posao i kompaniju gde možete istaknuti zašto
+            želite raditi baš kod njih i kako vaše veštine i iskustvo odgovaraju
+            njihovim potrebama.
+          </p>
+          <button>Kliknite OVDE da vidite naše pakete!</button>
+        </div>
+        <div class="usluga-linked">
+          <h3>Sređivanje LinkedIn profila</h3>
+          <p>
+            LinkedIn je snažan alat za razvoj karijere i profesionalne mreže.
+            Imati dobar LinkedIn profil pomaže vam da budete vidljivi, povezani
+            i relevantni u profesionalnom svetu. LinkedIn vam pruža priliku da
+            radite na svojem ličnom brendiranju. Možete izgraditi svoj
+            jedinstveni profil koji odražava vaše vrednosti, interese i
+            profesionalni put.
+          </p>
+          <button>Kliknite OVDE da vidite naše pakete!</button>
+        </div>
+        <div class="usluga-intervju">
+          <h3>Priprema za intervju</h3>
+          <p>
+            Najbolja stvar da se pripremite za intervju, povećate svoje šanse za
+            uspeh i osećate se sigurnije tokom procesa zapošljavanja je da se
+            konsultujete sa stručnjacima. SuperCV tim će vam pomoći da
+            oblikujete svoje odgovore tako da pričaju jasnu i ubedljivu priču o
+            vašim kvalifikacijama. Naši konsultanti će vam pomoći da
+            identifikujete svoje jake tačke koje treba isticati tokom intervjua,
+            ali i slabosti koje treba poboljšati ili obratiti pažnju na njih.
+          </p>
+          <button>Kliknite OVDE da vidite naše pakete!</button>
+        </div>
+      </div>
+    </div>
+    <!-- START USLUGE section -->
+
+    <!-- START JEZICI section -->
+    <div class="jezici">
+      <div class="jezici-content">
+        <h2>Na kojim jezicima pruzamo usluge?</h2>
+        <p>
+          Kao sto smo vec napomenuli imamo iskustva na tržištu Srbije, na
+          tržištu Sjedinjenih Američkih Država i tržištu Južne Amerike.
+        </p>
+        <p>Tako da svaku nasu uslugu mozete dobiti na:</p>
+        <div class="jezici-img">
+          <div>
+            <p>Srpskom jeziku</p>
+            <img src="img/serbia.png" alt="serbia" />
+          </div>
+          <div>
+            <p>Engleskom jeziku</p>
+            <img src="img/united-kingdom.png" alt="serbia" />
+          </div>
+          <div>
+            <p>Spanskom jeziku</p>
+            <img src="img/spain.png" alt="serbia" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END JEZICI section -->
+
+    <!-- START PAKETI secion -->
+    <div class="paketi">
+      <div class="paketi-content">
+        <h4>Paketi</h4>
+        <h2>CV paketi</h2>
+        <div class="paketi-box">
+          <div class="paket-cv">
+            <h3>Standard</h3>
+            <p>Pravljenje CV-a</p>
+            <button><a href="placanje.html">Uzmi paket</a></button>
+          </div>
+          <div class="paket-cv">
+            <h3>Standard Plus</h3>
+            <p>Pravljenje CV-a, Pravljenje Cover Letter-a</p>
+            <button>Uzmi paket</button>
+          </div>
+          <div class="paket-cv">
+            <h3>Premium</h3>
+            <p>
+              Pravljenje CV-a, Pravljenje Cover Letter-a, Sredjivanje LinkedIn-a
+            </p>
+            <button>Uzmi paket</button>
+          </div>
+        </div>
+
+        <h2>Intervju paketi</h2>
+        <div class="paketi-box">
+          <div class="paket-cv">
+            <h3>Standard</h3>
+            <p>Pravljenje CV-a</p>
+            <button>Uzmi paket</button>
+          </div>
+          <div class="paket-cv">
+            <h3>Standard Plus</h3>
+            <p>Pravljenje CV-a, Pravljenje Cover Letter-a</p>
+            <button>Uzmi paket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PAKETI secion -->
+
+    <div class="contact">
+      <div class="contact-content">
+        <input type="text" id="fullName" required />
+        <input type="text" id="email_id" required />
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Slobodno nas pitajte, tu smo da pomognemo."
+          required
+        ></textarea>
+        <button onclick="SendMail()">Send</button>
       </div>
     </div>
     <script src="app.js"></script>
