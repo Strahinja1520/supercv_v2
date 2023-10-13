@@ -268,6 +268,7 @@
     margin: 0 auto;
     font-size: 2.8rem;
     margin-bottom: 2rem;
+    
 }
 .uvod-content p{
     font-size: 1.4rem;
@@ -412,4 +413,344 @@
     .onama-img{
         padding: 0;
     }
+    .onama-content p{
+        font-size: 1rem;
+    }
+}
+
+.usluge{
+    background-color: #fff;
+}
+.usluge-content{
+    max-width: 1300px;
+    padding: 3rem 50px;
+    margin: 0 auto;
+}
+.usluge-content h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.usluge-content .usluga-cv{
+    padding: 2rem;
+    background: linear-gradient(180deg, #ff0844, #ffb199);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+.usluge-content .usluga-cv h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+}
+.usluge-content .usluga-cv p{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    line-height: 1.8em;
+    color: #fff;
+}
+.usluge-content .usluga-cv button{
+    font-size: 1rem;
+    background-color: #ff0844;
+    padding: 14px 32px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.35s;
+    width: 50%;
+    margin: 0 auto;
+}
+.usluge-content .usluga-cv button:hover{
+
+}
+.usluge-content .usluga-cover{
+    padding: 2rem;
+    background: linear-gradient(180deg, #ff0844, #ffb199);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+.usluge-content .usluga-cover h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+}
+.usluge-content .usluga-cover p{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    line-height: 1.8em;
+    color: #fff;
+}
+.usluge-content .usluga-cover button{
+    font-size: 1rem;
+    background-color: #ff0844;
+    padding: 14px 32px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.35s;
+    width: 50%;
+    margin: 0 auto;
+}
+.usluge-content .usluga-linked{
+    padding: 2rem;
+    background: linear-gradient(180deg, #ff0844, #ffb199);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+.usluge-content .usluga-linked h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+}
+.usluge-content .usluga-linked p{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    line-height: 1.8em;
+    color: #fff;
+}
+.usluge-content .usluga-linked button{
+    font-size: 1rem;
+    background-color: #ff0844;
+    padding: 14px 32px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.35s;
+    width: 50%;
+    margin: 0 auto;
+}
+.usluge-content .usluga-intervju{
+    padding: 2rem;
+    background: linear-gradient(180deg, #ff0844, #ffb199);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+.usluge-content .usluga-intervju h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+}
+.usluge-content .usluga-intervju p{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    line-height: 1.8em;
+    color: #fff;
+}
+.usluge-content .usluga-intervju button{
+    font-size: 1rem;
+    background-color: #ff0844;
+    padding: 14px 32px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.35s;
+    width: 50%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 960px) {
+    .usluge-content h3{
+        text-align: center;
+    }
+    .usluge-content p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .usluge-content .usluga-intervju button,
+    .usluge-content .usluga-linked button,
+    .usluge-content .usluga-cover button,
+    .usluge-content .usluga-cv button{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    .usluge-content h2{
+        font-size: 1.9rem;
+    }
+    .usluge-content .usluga-cv h3,
+    .usluge-content .usluga-cover h3,
+    .usluge-content .usluga-linked h3,
+    .usluge-content .usluga-intervju h3{
+        font-size: 1.4rem;
+    }
+    .usluge-content .usluga-cv,
+    .usluge-content .usluga-cover,
+    .usluge-content .usluga-linked,
+    .usluge-content .usluga-intervju{
+        padding: 2rem 1rem;
+    }
+    .usluge-content .usluga-cv p,
+    .usluge-content .usluga-cover p,
+    .usluge-content .usluga-linked p,
+    .usluge-content .usluga-intervju p{
+        font-size: 1rem;
+    }
+}
+
+.jezici{
+    background-color: #fff;
+}
+.jezici-content{
+    max-width: 1300px;
+    padding: 3rem 50px;
+    margin: 0 auto;
+}
+.jezici-content h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.jezici-content p{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+.jezici-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+.jezici-content img{
+    width: 200px;
+    height: 200px;
+}
+.jezici-img p{
+    margin-bottom: 0;
+}
+@media screen and (max-width: 960px) {
+    .jezici-content{
+        padding: 0rem 50px;
+    }
+    .jezici-content h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .jezici-content p{
+        font-size: 1.3rem;
+    }
+    .jezici-content img{
+        width: 120px;
+        height: 120px;
+    }
+    .jezici-img{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.paketi{
+    background-color: #191919;
+}
+.paketi-content{
+    max-width: 1300px;
+    padding: 3rem 50px;
+    margin: 0 auto;
+}
+.paketi-content h4{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.paketi-content h2{
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.paketi-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.paket-cv{
+    background-color: white;
+    width: 25%;
+    height: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.paket-cv h3{
+    text-align: center;
+    font-size: 2rem;
+}
+.paket-cv button{
+    font-size: 1rem;
+    background-color: #ff0844;
+    padding: 14px 32px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.35s;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.placanje{
+    background-color: #fff;
+}
+
+.placanje-content{
+    max-width: 1300px;
+    padding: 3rem 50px;
+    margin: 0 auto;
+}
+.placanje-content h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.placanje-content p{
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+}
+.placanje-content span{
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+.uplatnica{
+    text-align: center;
+    padding: 2rem;
+    background-color: #131313;
+}
+.uplatnica img{
+    width: 800px;
+    height: 300px;
+}
+
+@media screen and (max-width: 960px) {
+    .paketi-content h4{
+        font-size: 2.8rem;
+        margin-bottom: 3rem;
+    }
+    .paketi-content h2{
+        font-size: 1.9rem;
+    }
+    .paketi-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .paket-cv{
+        width: 100%;
+        height: 400px;
+        padding: 2rem 1rem;
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    .paket-cv h3{
+        font-size: 1.5rem;
+    }
+    
 }
