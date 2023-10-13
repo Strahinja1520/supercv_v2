@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Rubik:wght@300;400&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Kumbh Sans", sans-serif;
+  /* font-family: Inter,sans-serif; */
 }
 
 .navbar {
@@ -43,6 +43,7 @@
   text-decoration: none;
   font-size: 2rem;
   color: #ff0844;
+  /* font-family: Inter,sans-serif; */
 }
 
 .fa-gem {
@@ -200,7 +201,7 @@
 }
 
 .main{
-    background-color: #131313;
+    background-color: #191919;
 }
 
 .main-content{
@@ -209,6 +210,7 @@
     justify-content: space-between;
     max-width: 1300px;
     padding: 3rem 50px;
+    margin: 0 auto;
 }
 
 .hero-img{
@@ -258,17 +260,19 @@
 .uvod-content{
     max-width: 1300px;
     padding: 3rem 50px;
+    margin: 0 auto;
 }
 .uvod-content h2{
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    font-size: 2.7rem;
+    font-size: 2.8rem;
     margin-bottom: 2rem;
 }
 .uvod-content p{
     font-size: 1.4rem;
     margin-bottom: 3rem;
+    line-height: 1.8em;
     
 }
 
@@ -285,10 +289,17 @@
     .main-content h1{
         font-size: 1.8rem;
     }
+    .main-content button{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 480px) {
     .main-content{
         padding: 1rem 15px;
+    }
+    .hero-img img{
+        width: 300px;
+        height: 300px;
     }
     .main-content h1{
         font-size: 1.4rem;
@@ -299,9 +310,6 @@
     .main-content p{
         font-size: 1.5rem;
     }
-    .main-content button{
-        width: 100%;
-    }
     .uvod-content{
         padding: 1rem 15px;
     }
@@ -309,6 +317,99 @@
         text-align: left;
         margin: 0;
         margin-bottom: 1.5rem;
+        font-size: 2.2rem;
     }
 
+    .uvod-content p{
+        font-size: 1.2rem;
+    }
+
+}
+@media screen and (max-width: 380px) {
+    .main-content h1{
+        font-size: 1.2rem;
+    }
+    .main-content h2{
+        font-size: 1.8rem;
+    }
+    .main-content p{
+        font-size: 1.3rem;
+    }
+    .uvod-content h2{
+        text-align: left;
+        margin: 0;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .uvod-content p{
+        font-size: 1rem;
+    }
+}
+
+.onama{
+    background-color: #191919;
+}
+.onama-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding: 3rem 50px;
+    margin: 0 auto;
+}
+.onama-img{
+
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    padding-top: 3rem;
+}
+.onama-img img{
+    width: 400px;
+    height: 400px;
+}
+.onama-text{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.onama-content h2{
+    color: red;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.onama-content p{
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1.8em;
+}
+.onama-content span{
+    color: #4837ff;
+}
+@media screen and (max-width: 960px){
+    .onama-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .onama-img img{
+        width: 350px;
+        height: 350px;
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .onama-img img{
+        width: 300px;
+        height: 300px;
+    }
+    .onama-content{
+        padding: 1rem 15px;
+    }
+    .onama-content h2{
+        font-size: 2em;
+    }
+    .onama-img{
+        padding: 0;
+    }
 }
