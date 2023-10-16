@@ -253,17 +253,37 @@
 
     <div class="contact">
       <div class="contact-content">
-        <input type="text" id="fullName" required />
-        <input type="text" id="email_id" required />
-        <textarea
-          name=""
-          id="message"
-          cols="30"
-          rows="10"
-          placeholder="Slobodno nas pitajte, tu smo da pomognemo."
-          required
-        ></textarea>
-        <button onclick="SendMail()">Send</button>
+        <div class="contact-text">
+          <span>Budimo u kontaktu</span>
+          <h2>
+            Hajde da budemo tim. <br />
+            Tim koji će da ti pomogne u tvojoj karijeri.
+          </h2>
+          <p>Zajedno možemo više 🤝</p>
+          <div class="contact-mail">
+            <div class="mail-ikonica">
+              <i class="fas fa-envelope-square fa-4x"></i>
+            </div>
+            <div class="mail-text">
+              <p>Pošalji nam mail na:</p>
+              <span>supercv@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3>Pošalji nam poruku</h3>
+          <input type="text" id="fullName" placeholder="Tvoje ime*" required />
+          <input type="text" id="email_id" placeholder="Email*" required />
+          <textarea
+            name=""
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Tvoja poruka*"
+            required
+          ></textarea>
+          <button onclick="SendMail()">Send</button>
+        </div>
       </div>
     </div>
     <script src="app.js"></script>
