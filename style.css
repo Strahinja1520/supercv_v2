@@ -465,16 +465,17 @@
 
 }
 @media screen and (max-width: 480px) {
-    .usluge-content  h3{
-        margin-bottom: 1rem;
+    .usluge-content  h2{
+        margin-bottom: 2rem;
+        font-size: 2rem;
     }
     .usluge-content .usluga h3{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         
     }
     .usluge-content .usluga p{
-        font-size: 1rem;
-        text-align: center;
+        font-size: 1.2rem;
+        width: 100%;
     }
 }
 
