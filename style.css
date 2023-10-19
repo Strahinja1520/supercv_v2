@@ -237,7 +237,7 @@
     margin-bottom: 1rem;
 }
 .main-content h2{
-    font-size: 3rem;
+    font-size: 3.2rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #4800ff 0%, #0080ff);
     background-size: 100%;
@@ -326,9 +326,6 @@
     .main-content h2{
         font-size: 2rem;
     }
-    .main-content p{
-        font-size: 1.5rem;
-    }
     .uvod-content{
         padding: 1rem 15px;
     }
@@ -362,7 +359,7 @@
     }
 
     .uvod-content p{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -433,7 +430,7 @@
         padding: 0;
     }
     .onama-content p{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -549,7 +546,7 @@
 }
 @media screen and (max-width: 960px) {
     .jezici-content{
-        padding: 0rem 50px;
+        padding: 1rem 15px;
     }
     .jezici-content h2{
         font-size: 2rem;
@@ -619,6 +616,9 @@
     text-align: center;
     font-size: 2.2rem;
     font-weight: 300;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .paket-cv button{
     font-size: 1rem;
