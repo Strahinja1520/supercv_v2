@@ -7,6 +7,16 @@ menu.addEventListener("click", (e) => {
 });
 
 function SendMail(){
+
+  const reg = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+  const emailInput = document.getElementById("email_id");
+
+  if(!reg.test(emailInput.value)){
+    emailInput.value = "";
+    emailInput.placeholder = "Morate uneti ispravan email*";
+    return;
+  }
+
   var params = {
     from_name: document.getElementById("fullName").value,
     email_id: document.getElementById("email_id").value,
@@ -20,6 +30,7 @@ function SendMail(){
      console.log('FAILED...', error);
   });
 
+  emailInput.placeholder = "Email*";
   document.getElementById("fullName").value = "";
   document.getElementById("email_id").value = "";
   document.getElementById("message").value = "";
