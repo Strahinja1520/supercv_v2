@@ -459,7 +459,7 @@
 .usluge-content .usluga h3::after{
     content: "";
         display: block;
-        border-bottom: 3px solid #ff0844;
+        border-bottom: 1px solid #ff0844;
         width: 50%;
         position: relative;
         bottom: -6px; /* your padding + border-width */
