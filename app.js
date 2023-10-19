@@ -6,6 +6,16 @@ menu.addEventListener("click", (e) => {
   menuLinks.classList.toggle("active");
 });
 
+const linkovi = document.querySelectorAll(".navbar__menu a");
+console.log(linkovi);
+
+linkovi.forEach((e) => {
+  e.addEventListener("click", () => {
+    menu.classList.toggle("is-active");
+    menuLinks.classList.toggle("active");
+  })
+})
+
 function SendMail(){
 
   const reg = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
