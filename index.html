@@ -32,7 +32,9 @@
     <!-- START Navbar sesction -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="" id="navbar__logo"><i class="fas fa-gem"></i> SuperCV</a>
+        <a href="#pocetna" id="navbar__logo"
+          ><i class="fas fa-gem"></i> SuperCV</a
+        >
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -40,16 +42,16 @@
         </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="" class="navbar__links">Početna</a>
+            <a href="#pocetna" class="navbar__links">Početna</a>
           </li>
           <li class="navbar__item">
-            <a href="" class="navbar__links">O nama</a>
+            <a href="#onama_id" class="navbar__links">O nama</a>
           </li>
           <li class="navbar__item">
-            <a href="" class="navbar__links">Paketi i plaćanje</a>
+            <a href="#paketi_id" class="navbar__links">Paketi i plaćanje</a>
           </li>
           <li class="navbar__btn">
-            <a href="" class="button">Kontaktiraj nas!</a>
+            <a href="#contact_id" class="button">Kontaktiraj nas!</a>
           </li>
         </ul>
       </div>
@@ -57,7 +59,7 @@
     <!-- END Navbar sesction -->
 
     <!-- START HERO serction -->
-    <div class="main">
+    <div class="main" id="pocetna">
       <div class="main-content">
         <div class="hero-img">
           <img src="img/hero.svg" alt="cv" />
@@ -69,7 +71,7 @@
           </h1>
           <h2>U 95% slučajeva, problem nije u Vama niti u Vašim veštinama.</h2>
           <p>Radi se o Vašem CV-u i prezentovanju tokom intervjua.</p>
-          <button>Postani profesionalac💼</button>
+          <button>Postani profesionalac 🚀</button>
         </div>
       </div>
     </div>
@@ -102,13 +104,13 @@
     <!-- END UVOD section -->
 
     <!-- START ONAMA section -->
-    <div class="onama">
+    <div class="onama" id="onama_id">
       <div class="onama-content">
         <div class="onama-img">
           <img src="img/onama.svg" alt="nas tim" />
         </div>
         <div class="onama-text">
-          <h2>Ko smo mi? 🎤</h2>
+          <h2>Ko smo mi?</h2>
           <p>
             Naš tim poseduje preko deset godina iskustva u podršci kandidatima
             prilikom kreiranja izvanrednih CV-a za apliciranje i uspešnom
@@ -138,7 +140,9 @@
             odgovarajuće kvalifikacije. Besprekoran CV povećava šanse da vas
             primete i pozovu na intervju.
           </p>
-          <button>Kliknite OVDE da vidite naše pakete!</button>
+          <button>
+            <a href="#paketi_id">Kliknite OVDE da vidite naše pakete!</a>
+          </button>
         </div>
         <div class="usluga">
           <h3>Pravljenje Cover Letter-a</h3>
@@ -151,7 +155,9 @@
             želite raditi baš kod njih i kako vaše veštine i iskustvo odgovaraju
             njihovim potrebama.
           </p>
-          <button>Kliknite OVDE da vidite naše pakete!</button>
+          <button>
+            <a href="#paketi_id">Kliknite OVDE da vidite naše pakete!</a>
+          </button>
         </div>
         <div class="usluga">
           <h3>Sređivanje LinkedIn profila</h3>
@@ -163,7 +169,9 @@
             jedinstveni profil koji odražava vaše vrednosti, interese i
             profesionalni put.
           </p>
-          <button>Kliknite OVDE da vidite naše pakete!</button>
+          <button>
+            <a href="#paketi_id">Kliknite OVDE da vidite naše pakete!</a>
+          </button>
         </div>
         <div class="usluga">
           <h3>Priprema za intervju</h3>
@@ -176,7 +184,9 @@
             identifikujete svoje jake tačke koje treba isticati tokom intervjua,
             ali i slabosti koje treba poboljšati ili obratiti pažnju na njih.
           </p>
-          <button>Kliknite OVDE da vidite naše pakete!</button>
+          <button>
+            <a href="#paketi_id">Kliknite OVDE da vidite naše pakete!</a>
+          </button>
         </div>
       </div>
     </div>
@@ -210,7 +220,7 @@
     <!-- END JEZICI section -->
 
     <!-- START PAKETI secion -->
-    <div class="paketi">
+    <div class="paketi" id="paketi_id">
       <div class="paketi-content">
         <h4>Paketi</h4>
         <h2>CV paketi</h2>
@@ -223,14 +233,14 @@
           <div class="paket-cv">
             <h3>Standard Plus</h3>
             <p>Pravljenje CV-a, Pravljenje Cover Letter-a</p>
-            <button>Uzmi paket</button>
+            <button><a href="placanje.html">Uzmi paket</a></button>
           </div>
           <div class="paket-cv">
             <h3>Premium</h3>
             <p>
               Pravljenje CV-a, Pravljenje Cover Letter-a, Sredjivanje LinkedIn-a
             </p>
-            <button>Uzmi paket</button>
+            <button><a href="placanje.html">Uzmi paket</a></button>
           </div>
         </div>
 
@@ -239,19 +249,19 @@
           <div class="paket-cv">
             <h3>Standard</h3>
             <p>Pravljenje CV-a</p>
-            <button>Uzmi paket</button>
+            <button><a href="placanje.html">Uzmi paket</a></button>
           </div>
           <div class="paket-cv">
             <h3>Standard Plus</h3>
             <p>Pravljenje CV-a, Pravljenje Cover Letter-a</p>
-            <button>Uzmi paket</button>
+            <button><a href="placanje.html">Uzmi paket</a></button>
           </div>
         </div>
       </div>
     </div>
     <!-- END PAKETI secion -->
 
-    <div class="contact">
+    <div class="contact" id="contact_id">
       <div class="contact-content">
         <div class="contact-text">
           <span>Budimo u kontaktu</span>
@@ -287,6 +297,20 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="footer-content">
+        <a href="#pocetna" class="footer-logo"
+          ><i class="fas fa-gem"></i>SuperCV</a
+        >
+        <p class="prava">
+          Sva prava koriscenja zadrzava <span>&nbsp;supercv.com</span>
+        </p>
+        <div>
+          <p>supercv@gmail.com</p>
+          <p>Telefon: 0612230032</p>
+        </div>
+      </div>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>
