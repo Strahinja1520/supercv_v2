@@ -448,12 +448,22 @@
 }
 .usluge-content .usluga{
     text-align: center;
+    margin-bottom: 4rem;
 }
 .usluge-content .usluga h3{
     text-transform: uppercase;
     font-size: 2rem;
     text-align: center;
     margin-bottom: 2rem;
+}
+.usluge-content .usluga h3::after{
+    content: "";
+        display: block;
+        border-bottom: 3px solid #ff0844;
+        width: 50%;
+        position: relative;
+        bottom: -6px; /* your padding + border-width */
+        margin: 0 auto;
 }
 .usluge-content .usluga p{
     font-size: 1.5rem;
@@ -498,6 +508,9 @@
     }
     .usluge-content{
         padding: 1rem 15px;
+    }
+    .usluge-content .usluga h3::after{
+        width: 80%;
     }
 }
 
