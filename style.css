@@ -227,13 +227,24 @@
     flex-basis: 0;
 }
 .main-content h1{
-    font-size: 1.2rem;
-    color: red;
+    font-size: 1.3rem;
+  background-image: linear-gradient(to top, rgb(250, 10, 22) 0%, #ff0844 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
     margin-bottom: 1rem;
 }
 .main-content h2{
     font-size: 3rem;
-    color: blue;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #4800ff 0%, #0080ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     margin-bottom: 1rem;
 }
 .main-content p{
@@ -251,8 +262,11 @@
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
-    transition: all 0.35s;
+    transition: all .35s;
     width: 50%;
+}
+.main-content button:hover{
+    background-color: #4837ff;
 }
 .uvod{
     background-color: white;
@@ -375,7 +389,7 @@
     flex-basis: 0;
 }
 .onama-content h2{
-    color: red;
+    color: #fff;
     font-size: 3rem;
     margin-bottom: 3rem;
 }
@@ -385,7 +399,7 @@
     line-height: 1.8em;
 }
 .onama-content span{
-    color: #4837ff;
+    color: #ff0844;
 }
 @media screen and (max-width: 960px){
     .onama-content{
@@ -460,11 +474,16 @@
     color: #fff;
     cursor: pointer;
     margin-bottom: 4rem;
+    transition: all .35s;
 }
-.usluge-content .usluga-cv button:hover{
-
+.usluge-content .usluga a{
+    text-decoration: none;
+    color: #fff;
 }
-@media screen and (max-width: 480px) {
+.usluge-content .usluga button:hover{
+    background-color: #4837ff;
+}
+@media screen and (max-width: 768px) {
     .usluge-content  h2{
         margin-bottom: 2rem;
         font-size: 2rem;
@@ -476,6 +495,9 @@
     .usluge-content .usluga p{
         font-size: 1.2rem;
         width: 100%;
+    }
+    .usluge-content{
+        padding: 1rem 15px;
     }
 }
 
@@ -543,28 +565,42 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 3rem;
+    letter-spacing: 25px;
 }
 .paketi-content h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 300;
     color: #fff;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+
+}
+.paketi-content h2::after{
+        content: "";
+        display: block;
+        border-bottom: 3px solid #4837ff;
+        width: 35%;
+        position: relative;
+        bottom: -6px; /* your padding + border-width */
+        margin: 0 auto;
 }
 .paketi-box{
     display: flex;
     justify-content: space-evenly;
 }
 .paket-cv{
-    background-color: white;
+    background: linear-gradient(to bottom, #e4e4e5,  #ffffff );
     width: 25%;
     height: 400px;
     padding: 2rem 1rem;
     position: relative;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+    border-radius: 4px;
 }
 .paket-cv h3{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: 300;
 }
 .paket-cv button{
     font-size: 1rem;
@@ -581,6 +617,13 @@
     bottom: 0;
     left: 0;
     right: 0;
+}
+.paket-cv button:hover{
+    background-color: #4837ff;
+}
+.paket-cv a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .placanje{
@@ -621,7 +664,7 @@
         margin-bottom: 3rem;
     }
     .paketi-content h2{
-        font-size: 1.9rem;
+        font-size: 2.2rem;
     }
     .paketi-box{
         display: flex;
@@ -635,8 +678,11 @@
         margin-bottom: 4rem;
     }
     .paket-cv h3{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
+    .paketi-content h2::after{
+        width: 74%;
+}
     
 }
 .contact{
@@ -768,5 +814,48 @@ margin-bottom: .5rem;
     }
     .contact-text h4{
         display: none;
+    }
+}
+footer{
+    background-color: #4837ff;
+    color: white;
+}
+.footer-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 50px;
+}
+.footer-logo{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+  /* font-family: Inter,sans-serif; */
+}
+.prava{
+    display: flex;
+    align-items: center;
+}
+.footer-content span{
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .footer-logo{
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    .prava{
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
     }
 }
